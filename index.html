@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/image/favicons/">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/favicons//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/image/favicons//favicon-16x16.png">
+    <link rel="manifest" href="./assets/image/favicons//site.webmanifest">
+
+    <link rel="stylesheet" href="./assets/css/main.css" type="text/css">
+    <title>Pokédex | Pokemon</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span>-
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <img class="pokemon__img" src="" alt="Pokemon">
+        <img class="pokedex" src="./assets/image/pokedex.png" type="image/png" alt="Pokédex">
+
+        <form class="form">
+            <input class="input__search" type="search" placeholder="Name or Number:" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+    </main>
+
+    <script src="./assets/js/main.js" defer></script>
+</body>
+
+</html>
